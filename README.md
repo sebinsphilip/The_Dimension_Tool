@@ -93,9 +93,9 @@ below:
 ![alt tag](https://cloud.githubusercontent.com/assets/633728/12955971/8ca7d62e-d04b-11e5-879e-b872379df08c.png)
 
                       From the figure,
-                            tan (90 - angle2) = d / distance
-                             Hence d = distance * tan (90 - angle2)
-                             Or d = distance * cot (angle2)
+                          -  tan (90 - angle2) = d / distance
+                          -  Hence d = distance * tan (90 - angle2)
+                          -  Or d = distance * cot (angle2)
 Again ‘d’ is found to be distance / tan (angle2) .
 
 This difference is added to the input height as follows to give:
@@ -123,11 +123,17 @@ thereby showing the dimensions of the new object.
 ### FUTURE EXPANSION AND FEATURES:
 
 
-The Dimension Tool has a promising future. On making a few tweaks and modifications,
+The Dimension Tool has a promising future.
+
+- On making a few tweaks and modifications,
 this application could be used to measure the 3 dimensions of any object lying on the same
-horizontal plane as the user. The frame viewed on-screen can be modified to be three
+horizontal plane as the user.
+
+- The frame viewed on-screen can be modified to be three
 dimensional (assuming a default cubic structure) and the object, may it be tilted or straight, can
-be made to fit into this frame. The frame can be made adjustable in length, breadth, height and
+be made to fit into this frame.
+
+- The frame can be made adjustable in length, breadth, height and
 angle to fit around the object correctly thereby capable of returning the 3 dimensions of the
 object.
 
