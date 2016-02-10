@@ -1,4 +1,4 @@
-# THE DIMENSION TOOL
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;THE DIMENSION TOOL
 ### TASK:
 To develop an iPhone application, which can be used to measure the dimensions of an
 object by taking its photo/video through the inbuilt camera.
@@ -81,7 +81,7 @@ Now the height of the object can be obtained by substituting in the equation:
 
 >object’s height = lens’ height - d
 
-## B. When the object is larger than the user:
+> ## B. When the object is larger than the user:
 In this case too, the final angle made by the device with the vertical, when the user tilts it to point
 to the top of the object from its base, is recorded and used to compute the difference in height
 again, but this difference is added to the height given as input by the user.
