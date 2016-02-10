@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0107E11B009C090005C094 /* TheDimensionTool.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE0107E01B009C090005C094 /* TheDimensionTool.mp4 */; };
+		CE0107E31B00DEF90005C094 /* dropDownButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0107E21B00DEF90005C094 /* dropDownButton.png */; };
+		CE0107E51B00DF910005C094 /* dropDownButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0107E41B00DF910005C094 /* dropDownButton2.png */; };
+		CE0BCCEA1AF88A190067B4A8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0BCCE91AF88A190067B4A8 /* MediaPlayer.framework */; };
+		CE0D26C71AFB90490023F22A /* Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0D26C61AFB90490023F22A /* Scale.m */; };
+		CE0D26CB1AFB98220023F22A /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0D26C91AFB98220023F22A /* ImagePickerViewController.m */; };
+		CE183B791AE6125C004861A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE183B781AE6125C004861A5 /* main.m */; };
+		CE183B7C1AE6125C004861A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE183B7B1AE6125C004861A5 /* AppDelegate.m */; };
+		CE183B821AE6125C004861A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE183B811AE6125C004861A5 /* ViewController.m */; };
+		CE183B851AE6125C004861A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE183B831AE6125C004861A5 /* Main.storyboard */; };
+		CE183B871AE6125C004861A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE183B861AE6125C004861A5 /* Images.xcassets */; };
+		CE183B8A1AE6125C004861A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE183B881AE6125C004861A5 /* LaunchScreen.xib */; };
+		CE183B961AE6125C004861A5 /* OverlayViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE183B951AE6125C004861A5 /* OverlayViewTests.m */; };
+		CE183BA11AE614DB004861A5 /* oV.m in Sources */ = {isa = PBXBuildFile; fileRef = CE183BA01AE614DB004861A5 /* oV.m */; };
+		CE183BA41AE615F5004861A5 /* ScanButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE183BA31AE615F5004861A5 /* ScanButton.m */; };
+		CE4C36341B033D0D00DE1F84 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C36331B033D0D00DE1F84 /* MobileCoreServices.framework */; };
+		CE738F991AE77B29006F5C8B /* BFCropInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = CE738F981AE77B29006F5C8B /* BFCropInterface.m */; };
+		CEFDED6C1AFDFE160004156E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDED6B1AFDFE160004156E /* CoreGraphics.framework */; };
+		CEFDED6E1AFDFE270004156E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDED6D1AFDFE270004156E /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE183B901AE6125C004861A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE183B6B1AE6125C004861A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE183B721AE6125C004861A5;
+			remoteInfo = OverlayView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE0107E01B009C090005C094 /* TheDimensionTool.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TheDimensionTool.mp4; path = images/TheDimensionTool.mp4; sourceTree = SOURCE_ROOT; };
+		CE0107E21B00DEF90005C094 /* dropDownButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dropDownButton.png; path = ../dropDownButton.png; sourceTree = "<group>"; };
+		CE0107E41B00DF910005C094 /* dropDownButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dropDownButton2.png; path = ../dropDownButton2.png; sourceTree = "<group>"; };
+		CE019F171B01F1F50003C823 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants.h; sourceTree = "<group>"; };
+		CE0BCCE91AF88A190067B4A8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CE0D26C51AFB90490023F22A /* Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scale.h; sourceTree = "<group>"; };
+		CE0D26C61AFB90490023F22A /* Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scale.m; sourceTree = "<group>"; };
+		CE0D26C91AFB98220023F22A /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewController.m; sourceTree = "<group>"; };
+		CE0D26CA1AFB98220023F22A /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
+		CE183B731AE6125C004861A5 /* OverlayView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlayView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE183B771AE6125C004861A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE183B781AE6125C004861A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE183B7A1AE6125C004861A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE183B7B1AE6125C004861A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE183B801AE6125C004861A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE183B811AE6125C004861A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE183B841AE6125C004861A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE183B861AE6125C004861A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE183B891AE6125C004861A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE183B8F1AE6125C004861A5 /* OverlayViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverlayViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE183B941AE6125C004861A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE183B951AE6125C004861A5 /* OverlayViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayViewTests.m; sourceTree = "<group>"; };
+		CE183B9F1AE614DB004861A5 /* oV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oV.h; sourceTree = "<group>"; };
+		CE183BA01AE614DB004861A5 /* oV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oV.m; sourceTree = "<group>"; };
+		CE183BA21AE615F5004861A5 /* ScanButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanButton.h; sourceTree = "<group>"; };
+		CE183BA31AE615F5004861A5 /* ScanButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanButton.m; sourceTree = "<group>"; };
+		CE4C36331B033D0D00DE1F84 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CE738F971AE77B29006F5C8B /* BFCropInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCropInterface.h; sourceTree = "<group>"; };
+		CE738F981AE77B29006F5C8B /* BFCropInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCropInterface.m; sourceTree = "<group>"; };
+		CEFDED6B1AFDFE160004156E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEFDED6D1AFDFE270004156E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE183B701AE6125C004861A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4C36341B033D0D00DE1F84 /* MobileCoreServices.framework in Frameworks */,
+				CEFDED6E1AFDFE270004156E /* Foundation.framework in Frameworks */,
+				CEFDED6C1AFDFE160004156E /* CoreGraphics.framework in Frameworks */,
+				CE0BCCEA1AF88A190067B4A8 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE183B8C1AE6125C004861A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE183B6A1AE6125C004861A5 = {
+			isa = PBXGroup;
+			children = (
+				CE4C36331B033D0D00DE1F84 /* MobileCoreServices.framework */,
+				CE0107E41B00DF910005C094 /* dropDownButton2.png */,
+				CE0107E21B00DEF90005C094 /* dropDownButton.png */,
+				CEFDED6D1AFDFE270004156E /* Foundation.framework */,
+				CEFDED6B1AFDFE160004156E /* CoreGraphics.framework */,
+				CE0BCCE91AF88A190067B4A8 /* MediaPlayer.framework */,
+				CE183B751AE6125C004861A5 /* OverlayView */,
+				CE183B921AE6125C004861A5 /* OverlayViewTests */,
+				CE183B741AE6125C004861A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE183B741AE6125C004861A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE183B731AE6125C004861A5 /* OverlayView.app */,
+				CE183B8F1AE6125C004861A5 /* OverlayViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE183B751AE6125C004861A5 /* OverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				CE183B7A1AE6125C004861A5 /* AppDelegate.h */,
+				CE183B7B1AE6125C004861A5 /* AppDelegate.m */,
+				CE019F171B01F1F50003C823 /* Constants.h */,
+				CE183B801AE6125C004861A5 /* ViewController.h */,
+				CE183B811AE6125C004861A5 /* ViewController.m */,
+				CE0107E01B009C090005C094 /* TheDimensionTool.mp4 */,
+				CE0D26CA1AFB98220023F22A /* ImagePickerViewController.h */,
+				CE0D26C91AFB98220023F22A /* ImagePickerViewController.m */,
+				CE183B831AE6125C004861A5 /* Main.storyboard */,
+				CE183B861AE6125C004861A5 /* Images.xcassets */,
+				CE183B881AE6125C004861A5 /* LaunchScreen.xib */,
+				CE183B9F1AE614DB004861A5 /* oV.h */,
+				CE183BA01AE614DB004861A5 /* oV.m */,
+				CE738F971AE77B29006F5C8B /* BFCropInterface.h */,
+				CE738F981AE77B29006F5C8B /* BFCropInterface.m */,
+				CE183BA21AE615F5004861A5 /* ScanButton.h */,
+				CE183BA31AE615F5004861A5 /* ScanButton.m */,
+				CE0D26C51AFB90490023F22A /* Scale.h */,
+				CE0D26C61AFB90490023F22A /* Scale.m */,
+				CE183B761AE6125C004861A5 /* Supporting Files */,
+			);
+			path = OverlayView;
+			sourceTree = "<group>";
+		};
+		CE183B761AE6125C004861A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE183B771AE6125C004861A5 /* Info.plist */,
+				CE183B781AE6125C004861A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE183B921AE6125C004861A5 /* OverlayViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE183B951AE6125C004861A5 /* OverlayViewTests.m */,
+				CE183B931AE6125C004861A5 /* Supporting Files */,
+			);
+			path = OverlayViewTests;
+			sourceTree = "<group>";
+		};
+		CE183B931AE6125C004861A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE183B941AE6125C004861A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE183B721AE6125C004861A5 /* OverlayView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE183B991AE6125C004861A5 /* Build configuration list for PBXNativeTarget "OverlayView" */;
+			buildPhases = (
+				CE183B6F1AE6125C004861A5 /* Sources */,
+				CE183B701AE6125C004861A5 /* Frameworks */,
+				CE183B711AE6125C004861A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverlayView;
+			productName = OverlayView;
+			productReference = CE183B731AE6125C004861A5 /* OverlayView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE183B8E1AE6125C004861A5 /* OverlayViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE183B9C1AE6125C004861A5 /* Build configuration list for PBXNativeTarget "OverlayViewTests" */;
+			buildPhases = (
+				CE183B8B1AE6125C004861A5 /* Sources */,
+				CE183B8C1AE6125C004861A5 /* Frameworks */,
+				CE183B8D1AE6125C004861A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE183B911AE6125C004861A5 /* PBXTargetDependency */,
+			);
+			name = OverlayViewTests;
+			productName = OverlayViewTests;
+			productReference = CE183B8F1AE6125C004861A5 /* OverlayViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE183B6B1AE6125C004861A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE183B721AE6125C004861A5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CE183B8E1AE6125C004861A5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CE183B721AE6125C004861A5;
+					};
+				};
+			};
+			buildConfigurationList = CE183B6E1AE6125C004861A5 /* Build configuration list for PBXProject "OverlayView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE183B6A1AE6125C004861A5;
+			productRefGroup = CE183B741AE6125C004861A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE183B721AE6125C004861A5 /* OverlayView */,
+				CE183B8E1AE6125C004861A5 /* OverlayViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE183B711AE6125C004861A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0107E11B009C090005C094 /* TheDimensionTool.mp4 in Resources */,
+				CE0107E51B00DF910005C094 /* dropDownButton2.png in Resources */,
+				CE183B851AE6125C004861A5 /* Main.storyboard in Resources */,
+				CE183B8A1AE6125C004861A5 /* LaunchScreen.xib in Resources */,
+				CE183B871AE6125C004861A5 /* Images.xcassets in Resources */,
+				CE0107E31B00DEF90005C094 /* dropDownButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE183B8D1AE6125C004861A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE183B6F1AE6125C004861A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE183B7C1AE6125C004861A5 /* AppDelegate.m in Sources */,
+				CE738F991AE77B29006F5C8B /* BFCropInterface.m in Sources */,
+				CE183BA11AE614DB004861A5 /* oV.m in Sources */,
+				CE183BA41AE615F5004861A5 /* ScanButton.m in Sources */,
+				CE0D26CB1AFB98220023F22A /* ImagePickerViewController.m in Sources */,
+				CE0D26C71AFB90490023F22A /* Scale.m in Sources */,
+				CE183B821AE6125C004861A5 /* ViewController.m in Sources */,
+				CE183B791AE6125C004861A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE183B8B1AE6125C004861A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE183B961AE6125C004861A5 /* OverlayViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE183B911AE6125C004861A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE183B721AE6125C004861A5 /* OverlayView */;
+			targetProxy = CE183B901AE6125C004861A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE183B831AE6125C004861A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE183B841AE6125C004861A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE183B881AE6125C004861A5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE183B891AE6125C004861A5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE183B971AE6125C004861A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE183B981AE6125C004861A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE183B9A1AE6125C004861A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Barg Upender (WSCP8WTN9T)";
+				INFOPLIST_FILE = OverlayView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = OverlayView;
+				PROVISIONING_PROFILE = "9d6637c3-890f-4e08-8785-0b3daeeba437";
+			};
+			name = Debug;
+		};
+		CE183B9B1AE6125C004861A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Barg Upender (WSCP8WTN9T)";
+				INFOPLIST_FILE = OverlayView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = OverlayView;
+				PROVISIONING_PROFILE = "9d6637c3-890f-4e08-8785-0b3daeeba437";
+			};
+			name = Release;
+		};
+		CE183B9D1AE6125C004861A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OverlayViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = OverlayViewTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverlayView.app/OverlayView";
+			};
+			name = Debug;
+		};
+		CE183B9E1AE6125C004861A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OverlayViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = OverlayViewTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverlayView.app/OverlayView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE183B6E1AE6125C004861A5 /* Build configuration list for PBXProject "OverlayView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE183B971AE6125C004861A5 /* Debug */,
+				CE183B981AE6125C004861A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE183B991AE6125C004861A5 /* Build configuration list for PBXNativeTarget "OverlayView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE183B9A1AE6125C004861A5 /* Debug */,
+				CE183B9B1AE6125C004861A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE183B9C1AE6125C004861A5 /* Build configuration list for PBXNativeTarget "OverlayViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE183B9D1AE6125C004861A5 /* Debug */,
+				CE183B9E1AE6125C004861A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE183B6B1AE6125C004861A5 /* Project object */;
+}

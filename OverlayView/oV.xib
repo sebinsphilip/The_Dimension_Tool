@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="314"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross.png" translatesAutoresizingMaskIntoConstraints="NO" id="U18-xW-moO">
+                    <rect key="frame" x="40" y="97" width="120" height="120"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCG-fa-BGS">
+                    <rect key="frame" x="79" y="29" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="21" id="Aum-gL-jEL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="U18-xW-moO" firstAttribute="top" secondItem="lCG-fa-BGS" secondAttribute="bottom" constant="47" id="10B-dg-rCB"/>
+                <constraint firstAttribute="centerX" secondItem="U18-xW-moO" secondAttribute="centerX" id="5a4-nb-oYd"/>
+                <constraint firstItem="lCG-fa-BGS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" priority="100" id="5an-lh-vI3"/>
+                <constraint firstAttribute="trailing" secondItem="lCG-fa-BGS" secondAttribute="trailing" constant="79" id="eR0-4y-QpA"/>
+                <constraint firstAttribute="centerY" secondItem="U18-xW-moO" secondAttribute="centerY" id="n4h-dF-uad"/>
+                <constraint firstItem="lCG-fa-BGS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="79" id="tRz-qw-d5K"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="140" y="98"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross.png" width="120" height="120"/>
+    </resources>
+</document>
